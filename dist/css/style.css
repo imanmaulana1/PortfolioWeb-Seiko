@@ -1,0 +1,149 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-nav-title {
+  letter-spacing: 8px;
+}
+
+.navbar {
+  transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(40, 40, 40, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+.navbar i {
+  color: rgb(185, 185, 185);
+}
+
+.navbar i:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/image/seiko2.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.brand {
+  padding: 100px 0 100px 0;
+}
+
+.brand .row:nth-child(2) .col-lg-4 img {
+  width: 100%;
+  transition: transform 2s;
+}
+
+.brand .row:nth-child(2) .col-lg-4 img:hover {
+  transform: scale(1.5);
+  transform-origin: 50% 50%;
+  cursor: pointer;
+}
+
+.custom-btn {
+  padding: 5px 20%;
+  background-color: transparent;
+  border: 1px solid;
+  transition: 0.4s ease;
+}
+
+.custom-btn:hover {
+  background-color: rgb(3, 77, 196);
+  color: #fff;
+}
+
+.box-service {
+  height: 80px;
+  font-size: 0.8rem;
+}
+
+.box-service:nth-child(1),
+.box-service:nth-child(3) {
+  background-color: rgb(231, 231, 231);
+}
+
+.faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.faq .accordion .accordion.button:focus {
+  box-shadow: none;
+}
+
+.faq .accordion {
+  --bs-accordion-bg: #fafafa;
+}
+
+.footer {
+  background-color: #121212;
+  color: #fff;
+  min-height: 40vh;
+}
+
+.footer .col-lg-3:nth-child(1) {
+  border-right: 1px solid #fff;
+}
+
+.footer .col-lg-3:nth-child(1) a {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: rgb(166, 166, 166);
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.footer .col-lg-3:nth-child(1) a:hover {
+  color: #fff;
+}
+
+.footer .col-lg-3:nth-child(1) a:nth-child(4) {
+  text-transform: capitalize;
+}
+
+.footer .col-2:nth-child(2) a,
+.footer .col-lg-3 a,
+.footer .col-lg-2 a {
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.footer .col-2:nth-child(2) a:hover,
+.footer .col-lg-3 a:hover,
+.footer .col-lg-2 a:hover {
+  color: rgb(166, 166, 166);
+}
+
+.custom-footer-title {
+  letter-spacing: 8px;
+}
+
+@media screen and (max-width: 998px) {
+  .footer .col-lg-3:nth-child(1) {
+    border: none;
+  }
+
+  .footer .col-12:nth-child(1) {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+  }
+
+  .footer .col-lg-3:nth-child(2) {
+    margin-left: 0 !important;
+  }
+}
+
+.footer .row:nth-child(2) .col p {
+  color: rgb(103, 103, 103);
+  font-size: 0.7rem;
+}
